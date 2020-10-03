@@ -1,5 +1,6 @@
 import React from "react";
 import "./output.css";
+import Zipcode from "./Zipcode";
 
 function App() {
   return (
@@ -12,16 +13,7 @@ function App() {
         </p>
         <br />
         <span className='text-5xl'>
-        〒<input
-          id='zipcode'
-          className="text-5xl text-gray-700"
-          itemType="text"
-          autoFocus
-          placeholder="1230001"
-          maxLength="7"
-          minLength="7"
-          size='8'
-        />
+        〒<Zipcode />
         </span>
       </header>
     </div>
