@@ -1,20 +1,36 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { createURL, fetchAddressFromURL } from "./url";
-
-
-async function handler (e) {
-  const value = e.target.value;
-  if (value.length !== 7) return;
-  const url = createURL(value);
-  console.log(url);
-  const addresses = await fetchAddressFromURL(url);
-  console.log(addresses);
-};
+import Address from "./Address";
 
 function Zipcode() {
+  const [code, setCode] = useState('');
+  const [url, setUrl] = useState('');
+  const [addresses, setAddress] = useState([]);
+
+  const handler = (e) => {
+    const value = e.target.value;
+
+    // データが変わっていなければ処理しない
+    if (value === code) return;
+    if (value.length !== 7) return;
+    setCode(value);
+    const url = createURL(value);
+    setUrl(url);
+  };
+
+  useEffect(() => {
+    if (code.length !== 7) return;
+    const fetchData = async () => {
+      const addresses = await fetchAddressFromURL(url);
+      setAddress(addresses);
+    };
+    fetchData();
+  }, [code]);
 
   return (
-    <input
+    <>
+    <span className='text-5xl'>
+    〒<input
       id="zipcode"
       className="text-5xl text-gray-700"
       itemType="text"
@@ -25,6 +41,10 @@ function Zipcode() {
       size="8"
       onChange={handler}
     />
+    </span>
+    <br />
+    <Address data={addresses}/>
+    </>
   );
 }
 
