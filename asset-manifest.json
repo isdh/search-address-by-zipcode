@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/isdh/search-address-by-zipcode/static/css/main.fd4153fb.chunk.css",
+    "main.js": "/isdh/search-address-by-zipcode/static/js/main.0b278754.chunk.js",
+    "main.js.map": "/isdh/search-address-by-zipcode/static/js/main.0b278754.chunk.js.map",
+    "runtime-main.js": "/isdh/search-address-by-zipcode/static/js/runtime-main.dfdaea11.js",
+    "runtime-main.js.map": "/isdh/search-address-by-zipcode/static/js/runtime-main.dfdaea11.js.map",
+    "static/js/2.48983907.chunk.js": "/isdh/search-address-by-zipcode/static/js/2.48983907.chunk.js",
+    "static/js/2.48983907.chunk.js.map": "/isdh/search-address-by-zipcode/static/js/2.48983907.chunk.js.map",
+    "index.html": "/isdh/search-address-by-zipcode/index.html",
+    "precache-manifest.f43bbb9e471d6c62f0c26a8b59318a96.js": "/isdh/search-address-by-zipcode/precache-manifest.f43bbb9e471d6c62f0c26a8b59318a96.js",
+    "service-worker.js": "/isdh/search-address-by-zipcode/service-worker.js",
+    "static/css/main.fd4153fb.chunk.css.map": "/isdh/search-address-by-zipcode/static/css/main.fd4153fb.chunk.css.map",
+    "static/js/2.48983907.chunk.js.LICENSE.txt": "/isdh/search-address-by-zipcode/static/js/2.48983907.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfdaea11.js",
+    "static/js/2.48983907.chunk.js",
+    "static/css/main.fd4153fb.chunk.css",
+    "static/js/main.0b278754.chunk.js"
+  ]
+}
