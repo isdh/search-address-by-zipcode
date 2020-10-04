@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/search-address-by-zipcode/precache-manifest.a11d9f7827a67fafaf83360cbbd94430.js"
+  "/search-address-by-zipcode/precache-manifest.ee1f983719f61a8b5fbde234bbb4f31e.js"
 );
 
 self.addEventListener('message', (event) => {
