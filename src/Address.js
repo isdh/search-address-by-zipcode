@@ -5,11 +5,16 @@ import NoAddressData from "./noAddressData";
 function Address(props) {
   return (
     <>
-      <h2 className="text-3xl font-bold">検索結果</h2>
       {props.data === null ? (
-        <NoAddressData />
+        <>
+          <h2 className="text-3xl font-bold">検索結果</h2>
+          <NoAddressData />
+        </>
       ) : props.data.length !== 0 ? (
+        <>
+        <h2 className="text-3xl font-bold">検索結果</h2>
         <AddressData data={props.data} />
+        </>
       ) : (
         <>
         </>
