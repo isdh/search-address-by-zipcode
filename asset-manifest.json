@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/isdh/search-address-by-zipcode/static/css/main.fd4153fb.chunk.css",
-    "main.js": "/isdh/search-address-by-zipcode/static/js/main.0b278754.chunk.js",
-    "main.js.map": "/isdh/search-address-by-zipcode/static/js/main.0b278754.chunk.js.map",
-    "runtime-main.js": "/isdh/search-address-by-zipcode/static/js/runtime-main.dfdaea11.js",
-    "runtime-main.js.map": "/isdh/search-address-by-zipcode/static/js/runtime-main.dfdaea11.js.map",
-    "static/js/2.48983907.chunk.js": "/isdh/search-address-by-zipcode/static/js/2.48983907.chunk.js",
-    "static/js/2.48983907.chunk.js.map": "/isdh/search-address-by-zipcode/static/js/2.48983907.chunk.js.map",
-    "index.html": "/isdh/search-address-by-zipcode/index.html",
-    "precache-manifest.f43bbb9e471d6c62f0c26a8b59318a96.js": "/isdh/search-address-by-zipcode/precache-manifest.f43bbb9e471d6c62f0c26a8b59318a96.js",
-    "service-worker.js": "/isdh/search-address-by-zipcode/service-worker.js",
-    "static/css/main.fd4153fb.chunk.css.map": "/isdh/search-address-by-zipcode/static/css/main.fd4153fb.chunk.css.map",
-    "static/js/2.48983907.chunk.js.LICENSE.txt": "/isdh/search-address-by-zipcode/static/js/2.48983907.chunk.js.LICENSE.txt"
+    "main.css": "/search-address-by-zipcode/static/css/main.fd4153fb.chunk.css",
+    "main.js": "/search-address-by-zipcode/static/js/main.c0e5ba70.chunk.js",
+    "main.js.map": "/search-address-by-zipcode/static/js/main.c0e5ba70.chunk.js.map",
+    "runtime-main.js": "/search-address-by-zipcode/static/js/runtime-main.b08d53da.js",
+    "runtime-main.js.map": "/search-address-by-zipcode/static/js/runtime-main.b08d53da.js.map",
+    "static/js/2.48983907.chunk.js": "/search-address-by-zipcode/static/js/2.48983907.chunk.js",
+    "static/js/2.48983907.chunk.js.map": "/search-address-by-zipcode/static/js/2.48983907.chunk.js.map",
+    "index.html": "/search-address-by-zipcode/index.html",
+    "precache-manifest.6b7e4f2d091d56c6caff4a5966bfea13.js": "/search-address-by-zipcode/precache-manifest.6b7e4f2d091d56c6caff4a5966bfea13.js",
+    "service-worker.js": "/search-address-by-zipcode/service-worker.js",
+    "static/css/main.fd4153fb.chunk.css.map": "/search-address-by-zipcode/static/css/main.fd4153fb.chunk.css.map",
+    "static/js/2.48983907.chunk.js.LICENSE.txt": "/search-address-by-zipcode/static/js/2.48983907.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dfdaea11.js",
+    "static/js/runtime-main.b08d53da.js",
     "static/js/2.48983907.chunk.js",
     "static/css/main.fd4153fb.chunk.css",
-    "static/js/main.0b278754.chunk.js"
+    "static/js/main.c0e5ba70.chunk.js"
   ]
 }
