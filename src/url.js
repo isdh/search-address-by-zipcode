@@ -21,6 +21,7 @@ export const fetchAddressFromURL = async (url) => {
       return json.results;
     } else if (json.status === 400 || json.status === 500 ) {
       console.error(json);
+      return json.result;
     }
   } catch (e) {
     console.error(e);
