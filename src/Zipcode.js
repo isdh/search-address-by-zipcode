@@ -31,7 +31,7 @@ function Zipcode() {
 
   return (
     <>
-    <span className='text-5xl'>
+    <span className='text-xl'>
     〒<input
       id="zipcode"
       className="text-5xl text-gray-700"
