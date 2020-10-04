@@ -8,8 +8,10 @@ function Zipcode() {
   const [addresses, setAddress] = useState([]);
 
   const handler = (e) => {
-    const value = e.target.value;
-
+    /** @type string */
+    let value = e.target.value;
+    value = value.replace(/[^0-9]/g, '');
+    setCode(value);
     // データが変わっていなければ処理しない
     if (value === code) return;
     if (value.length !== 7) return;
@@ -39,7 +41,10 @@ function Zipcode() {
       maxLength="7"
       minLength="7"
       size="8"
+      // pattern="[0-9]{7}"
+      // inputMode="numeric"
       onChange={handler}
+      value={code}
     />
     </span>
     <br />
