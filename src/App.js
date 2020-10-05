@@ -1,6 +1,6 @@
 import React from "react";
 import "./output.css";
-import Zipcode from "./Zipcode";
+import Zipcode from "./components/Zipcode";
 
 function App() {
   return (
