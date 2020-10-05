@@ -14,12 +14,13 @@ export const fetchAddressFromURL = async (url) => {
     if (!response.ok) {
       throw new Error(response.json());
     }
-    console.log(response);
     const json = await response.json();
     if (json.status === 200) {
-      console.log(json);
       return json.results;
     } else if (json.status === 400 || json.status === 500 ) {
+      console.error(json);
+      return json.result;
+    } else {
       console.error(json);
       return json.result;
     }
