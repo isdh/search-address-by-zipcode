@@ -15,7 +15,6 @@ function Zipcode() {
     // データが変わっていなければ処理しない
     if (value === code) return;
     if (value.length !== 7) return;
-    setCode(value);
     const url = createURL(value);
     setUrl(url);
   };
